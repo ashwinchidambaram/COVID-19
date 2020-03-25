@@ -47,6 +47,8 @@ for file in os.listdir(directory):
                     else:
                         data.append(row)
 
+                
+
         # Write to compiledData.csv
         with open(writeFile, 'w') as csvfile:
 
@@ -61,14 +63,3 @@ for file in os.listdir(directory):
 
     else:
         pass
-
-#directory = os.path.join("c:\\","/Users/ashwinc 1/github/COVID-19/csse_covid_19_data/csse_covid_19_daily_reports")
-#for root,dirs,files in os.walk(directory):
-#    for file in files:
-     #  if file.endswith(".csv"):
-    #       f=open(file, 'r')
-
-    #       print(num(files))
-
-          # f.close()
-#
