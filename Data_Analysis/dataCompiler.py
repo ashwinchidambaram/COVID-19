@@ -37,17 +37,18 @@ for file in os.listdir(directory):
 
                     row[1] == 'NA'
 
-                for x in range(3,5):
+                data.append(row)
+                #for x in range(3,5):
 
-                    row[x] == 0
+                    #row[x] == 0
 
-                    if row[3] == 0 and row[4] == 0 and row[5] == 0:
-                        csvreader.__next__()
+                    #if row[3] == 0 and row[4] == 0 and row[5] == 0:
+                        #csvreader.__next__()
 
-                    else:
-                        data.append(row)
+                    #else:
+                        #data.append(row)
 
-                
+
 
         # Write to compiledData.csv
         with open(writeFile, 'w') as csvfile:
